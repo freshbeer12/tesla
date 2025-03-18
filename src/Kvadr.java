@@ -22,7 +22,7 @@ public class Kvadr implements Telseso, Barva {
     }
 
     public void setBarva(String barva){
-        barva = "zelená";
+        this.barva = barva;
     }
 
     public void vypisBarva(){

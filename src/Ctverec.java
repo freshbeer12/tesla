@@ -19,7 +19,7 @@ public class Ctverec implements ITvar, Barva{
             System.out.println("Obvod čtverce je: " + obvod);
         }
     public void setBarva(String barva){
-        barva = "hnědá";
+        this.barva = barva;
     }
 
     public void vypisBarva(){

@@ -19,7 +19,7 @@ public class Trojuhelnik implements ITvar, Barva {
 		System.out.println("Obvod trojuhelnika je: " + obvod);
 	}
 	public void setBarva(String barva){
-		barva = "žůžová";
+		this.barva = barva;
 	}
 
 	public void vypisBarva(){

@@ -18,7 +18,7 @@ public class Krychle implements Telseso, Barva {
         System.out.println("Povrch krychle je: " + povrch);
     }
     public void setBarva(String barva){
-        barva = "modrá";
+        this.barva = barva;
     }
 
     public void vypisBarva(){

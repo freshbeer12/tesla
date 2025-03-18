@@ -19,7 +19,7 @@ public class Koule implements Telseso, Barva {
 
     }
     public void setBarva(String barva){
-        barva = "fialková";
+        this.barva = barva;
     }
 
     public void vypisBarva(){
