@@ -1,6 +1,7 @@
-public class Trojuhelnik implements ITvar {
+public class Trojuhelnik implements ITvar, Barva {
 	private int a, b, c;
 	private double obsah, obvod;
+	private String barva;
 	
 	public Trojuhelnik(int a, int b, int c) {
 		this.a = a;
@@ -9,14 +10,19 @@ public class Trojuhelnik implements ITvar {
 	}
 
 	public void spoctiObsah() {
-		double s = (double) (a + b + c)/2;
-	    obsah = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+		obsah = (a + b + c)/2;
 	    System.out.println("Obsah trojuhelnika je: " + obsah);
 	}
 
 	public void spoctiObvod() {
 		obvod =  (a + b + c);
 		System.out.println("Obvod trojuhelnika je: " + obvod);
-		
+	}
+	public void setBarva(String barva){
+		barva = "žůžová";
+	}
+
+	public void vypisBarva(){
+		System.out.println(barva);
 	}
 }
